@@ -1,0 +1,5 @@
+.dividerContainer {
+  margin-top: 16px;
+  border-style: none;
+  border-top: 1px dotted #ddd;
+}

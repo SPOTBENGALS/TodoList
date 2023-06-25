@@ -1,0 +1,12 @@
+.sectionContainer {
+  min-width: 500px;
+  padding: 16px 24px 24px;
+  margin-top: 20px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 10%) 0 0 10px;
+}
+
+.sectionContainer:last-child {
+  margin-bottom: 30px;
+}

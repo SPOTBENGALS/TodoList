@@ -1,0 +1,11 @@
+h4 {
+  margin: 10px 0 20px 2px;
+  color: #333;
+}
+
+.todoCount {
+  color: #6d32cd;
+  background-color: inherit;
+  margin-right: 2px;
+  font-size: 18px;
+}

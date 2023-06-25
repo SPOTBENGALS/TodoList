@@ -1,0 +1,89 @@
+.todoItemContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin: 0;
+  padding: 16px 8px;
+}
+
+.todoItemContainer:hover {
+  background-color: #f4f7fe;
+  transition: background-color 0.2s;
+}
+
+.todoItemContainer:hover .deleteIcon,
+.todoItemContainer:hover .changeIcon {
+  visibility: visible;
+}
+
+.checkedIcon,
+.unCheckedIcon,
+.deleteIcon,
+.changeIcon {
+  font-size: 24px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.checkedIcon {
+  color: #6d32cd;
+}
+
+.unCheckedIcon {
+  color: #ccc;
+}
+
+.deleteIcon {
+  visibility: hidden;
+  margin-left: 12px;
+  margin-right: 0;
+  color: #6d32cd;
+}
+
+.changeIcon {
+  visibility: hidden;
+  margin-left: auto;
+  margin-right: 0;
+  color: #6d32cd;
+  font-size: 22px;
+}
+
+.throughline {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.inputContainer {
+  display: none;
+  position: absolute;
+  top: 6px;
+  left: 40px;
+  width: 75%;
+}
+
+.inputContainer.onInputContainer {
+  display: block;
+}
+
+.inputContainer input {
+  display: inline-block;
+  width: calc(100% - 50px);
+  height: 25px;
+  margin: 8px 10px 0 0;
+  border: 1px solid #ccc;
+  text-indent: 5px;
+}
+
+.inputContainer input:focus {
+  outline: 0;
+}
+
+.inputContainer button {
+  height: 29px;
+  padding: 3px 8px 3px 6px;
+  border: 0;
+  border-radius: 2px;
+  background-color: #6d32cd;
+  color: white;
+}
