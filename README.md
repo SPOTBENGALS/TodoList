@@ -23,3 +23,4 @@
 - 체크 버튼을 통해 개별 완료 표시를 할 수 있습니다.
 - <img width="400" alt="image" src="https://github.com/SPOTBENGALS/TodoList/assets/119286806/81db7a2c-66dc-4ff2-b2d0-a70713a0e2f2">
 - 완료되지 않는 목록의 수를 표시해드립니다.
+- 오늘의 할일은 0시가 되면 초기화됩니다.
